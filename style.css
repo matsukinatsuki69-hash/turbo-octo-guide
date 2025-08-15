@@ -1,0 +1,152 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        .intro {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .puzzle-container {
+            margin-bottom: 40px;
+        }
+        
+        .puzzle {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .puzzle-number {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background-color: #3498db;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .puzzle h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            padding-left: 20px;
+        }
+        
+        .category {
+            display: inline-block;
+            padding: 3px 8px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+        
+        .ipa { background-color: #2ecc71; }
+        .ips { background-color: #f39c12; }
+        .math { background-color: #9b59b6; }
+        .law { background-color: #34495e; }
+        
+        .answer-input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .check-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .check-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        .feedback {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .correct {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .prize-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: none;
+        }
+        
+        .prize {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+        
+        .progress-container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .progress-bar {
+            height: 20px;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            width: 10%;
+            transition: width 0.5s;
+        }
+        
+        .progress-text {
+            text-align: center;
+            margin-top: 5px;
+            font-weight: bold;
+        }
